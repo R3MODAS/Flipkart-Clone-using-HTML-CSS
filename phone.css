@@ -1,0 +1,158 @@
+@media screen and (max-width:1260px) {
+    .search input{
+        width: 400px;
+    }
+
+    .top-content .box img{
+        width: 60px;
+    }
+
+    .top-content .box a{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1080px){
+
+    nav ul li a {
+        padding: 0 20px;
+        font-size: 0.9em;
+    }
+
+    .top-content .box img{
+        width: 50px;
+    }
+
+    .top-content .box a{
+        font-size: 0.7em;
+    }
+
+    .slider img{
+        width: 90vw;
+        overflow: hidden;
+    }
+
+    .card{
+        width: 90vw;
+    }
+
+    footer{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:968px){
+
+    nav{
+        flex-wrap: wrap;
+        height: 90px;
+        padding: 10px;
+    }
+
+    .top-content{
+        flex-wrap: wrap;
+        height: 180px;
+    }
+
+    .card .desc h1{
+        font-size: 1.4em;
+        font-weight: lighter;
+    }
+
+    .card .box .card-item img{
+        width: 130px;
+    }
+
+    .card .box .card-item p{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width:705px){
+    nav{
+        flex-wrap: wrap;
+        height: 120px;
+        padding: 5px;
+    }
+
+    .card .desc h1{
+        font-size: 1.4em;
+        font-weight: lighter;
+    }
+
+    .card .box .card-item img{
+        width: 100px;
+    }
+
+    .card .box .card-item p{
+        font-size: 0.6em;
+    }
+
+}
+
+@media screen and (max-width:560px){
+    nav{
+        flex-wrap: wrap;
+        height: 150px;
+        padding: 5px;
+    }
+
+    .search input{
+        width: 300px;
+        font-size: 0.8em;
+    }
+
+    .top-content{
+        flex-wrap: wrap;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:430px){
+    nav{
+        flex-wrap: wrap;
+        height: 160px;
+        padding: 10px;
+    }
+
+    .search input{
+        width: 250px;
+        height: 30px;
+        font-size: 0.7em;
+        padding: 5px 10px;
+    }
+
+    .search i{
+        width: 12px;
+        right: 10px;
+        top: 6px;
+    }
+
+    #logi{
+        font-size: 0.8em;
+    }
+
+    nav ul li a{
+        font-size: 0.8em;
+    }
+}
+
+
+@media screen and (max-width:405px){
+    nav{
+        flex-wrap: wrap;
+        height: 200px;
+        padding: 8px;
+    }
+
+    .logo {
+        margin: 15px 0px;
+    }
+
+    .top-content{
+        flex-wrap: wrap;
+        height: 330px;
+    }
+}
+
