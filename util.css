@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color: #2874f0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grey{
+    color : #b2b2b2;
+}
+
+#green{
+    color: #388e3c;
+}
+
+#bold{
+    font-weight: 600;
+}
